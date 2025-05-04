@@ -1,0 +1,45 @@
+{
+  "name": "masaojss-helper",
+  "displayName": "MasaoJSS Helper",
+  "description": "MasaoJSS API Documentation for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "publisher": "urotaichi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urotaichi/masaojss-helper"
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact",
+    "onLanguage:html",
+    "onLanguage:php"
+  ],
+  "contributes": {
+    "jsDocCompletionLines": 2
+  },
+  "main": "./out/extension.js",
+  "keywords": [],
+  "author": "urotaichi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/vscode": "^1.99.1",
+    "typescript": "^5.8.3",
+    "vscode-test": "^1.6.1"
+  }
+}
