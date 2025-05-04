@@ -4,8 +4,9 @@ All notable changes to the "MasaoJSS Helper" extension will be documented in thi
 
 ## [0.0.1] - 2025-05-04
 
-### Added
-- 初回リリース
-- MasaoJSS APIメソッドのホバーによるドキュメント表示機能
-- コード補完機能（IntelliSense）の追加
-- JavaScript、TypeScript、HTML、PHPファイルのサポート
+- MasaoJSS APIメソッドのホバードキュメント表示
+- Graphicsオブジェクトメソッドのホバードキュメント表示
+- ドット入力後のコード補完
+- 自動識別子検出機能
+  - userJSCallback関数の引数から`g`と`ap`の識別子を自動検出
+  - 様々な命名規則や関数定義のスタイルに対応

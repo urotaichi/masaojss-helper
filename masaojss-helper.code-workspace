@@ -7,5 +7,7 @@
 			"path": "../mc_canvas"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"powershell.cwd": "masaojss-helper"
+	}
 }
