@@ -1816,9 +1816,9 @@ console.log("グレネード所持数: " + count);
 敵（の攻撃）を指定座標に配置します。
 
 ### パラメータ
-- \`code\`: 敵（の攻撃）のコード
 - \`x\`: X座標（ブロック単位）
 - \`y\`: Y座標（ブロック単位）
+- \`code\`: 敵（の攻撃）のコード
 
 ### 敵コード一覧
 | コード | 敵の種類 | 種別 |
@@ -1914,7 +1914,7 @@ console.log("グレネード所持数: " + count);
 ### 使用例
 \`\`\`javascript
 // 座標(15, 8)にマリリを配置
-ap.setEnemy(10, 15, 8);
+ap.setEnemy(15, 8, 10);
 \`\`\``);
     methodDocumentations.set('getEnemyTotal', `## 敵の総数取得
 
@@ -2543,7 +2543,7 @@ ap.setMapchip(10, 5, 4);
 ### 使用例
 \`\`\`javascript
 // 座標(10, 5)のマップチップを取得
-var chipNo = ap.getMapchip(10, 5);
+var chip = ap.getMapchip(10, 5);
 \`\`\``);
     methodDocumentations.set('setMapchip2', `## 背景マップチップ設定
 

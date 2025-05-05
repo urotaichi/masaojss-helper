@@ -2,7 +2,7 @@
   "name": "masaojss-helper",
   "displayName": "MasaoJSS Helper",
   "description": "MasaoJSS API Documentation for Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -34,7 +34,13 @@
     "jsDocCompletionLines": 2
   },
   "main": "./out/extension.js",
-  "keywords": ["canvas-masao", "masao", "supermasao", "masaojs", "masaojs-helper"],
+  "keywords": [
+    "canvas-masao",
+    "masao",
+    "supermasao",
+    "masaojs",
+    "masaojs-helper"
+  ],
   "author": "urotaichi",
   "license": "MIT",
   "devDependencies": {
@@ -43,5 +49,4 @@
     "typescript": "^5.8.3",
     "vscode-test": "^1.6.1"
   }
-  
 }
