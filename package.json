@@ -34,7 +34,7 @@
     "jsDocCompletionLines": 2
   },
   "main": "./out/extension.js",
-  "keywords": [],
+  "keywords": ["canvas-masao", "masao", "supermasao", "masaojs", "masaojs-helper"],
   "author": "urotaichi",
   "license": "MIT",
   "devDependencies": {
