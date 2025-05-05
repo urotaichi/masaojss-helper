@@ -2,6 +2,12 @@
 
 All notable changes to the "MasaoJSS Helper" extension will be documented in this file.
 
+## [0.0.2] - 2025-05-05
+
+- APIドキュメントの修正
+  - `setEnemy`メソッドのパラメータ順序を修正 (`(code, x, y)` → `(x, y, type)`)
+  - その他、MasaoJSS.tsの実装に合わせてドキュメントを調整
+
 ## [0.0.1] - 2025-05-04
 
 - MasaoJSS APIメソッドのホバードキュメント表示
