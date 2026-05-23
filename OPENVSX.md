@@ -40,6 +40,9 @@ ovsx get urotaichi.masaojss-helper
 2. **手動公開** - 以下のコマンドで手動公開も可能
 
 ```bash
+# 名前空間の作成（初回のみ）
+ovsx create-namespace urotaichi -p YOUR_OVSX_TOKEN
+
 # OpenVSXのみに公開
 npm run publish:ovsx
 
@@ -60,6 +63,20 @@ GitHub Actionsでの自動公開には以下のシークレットが必要です
 2. GitHubアカウントでログイン
 3. ユーザー設定からAccess Tokenを生成
 4. GitHubリポジトリのSecretsに`OVSX_PAT`として追加
+
+### 名前空間の作成
+
+初回公開時には、OpenVSX Registryに名前空間（publisher名）を作成する必要があります：
+
+```bash
+# 名前空間の作成（初回のみ）
+ovsx create-namespace urotaichi -p YOUR_OVSX_TOKEN
+
+# 拡張機能の公開
+ovsx publish -p YOUR_OVSX_TOKEN
+```
+
+GitHub Actionsでは、名前空間の作成も自動化されています。
 
 ## ライセンス
 
