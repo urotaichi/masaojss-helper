@@ -11,6 +11,7 @@ Canvas正男のJavaScript API（MasaoJSS）のドキュメントをVisual Studio
 
 ## インストール方法
 
+### VS Code Marketplace から
 1. VS Codeの拡張機能ビュー（Ctrl+Shift+X）を開く
 2. 検索バーに「MasaoJSS Helper」と入力
 3. インストールボタンをクリック
@@ -19,6 +20,26 @@ Canvas正男のJavaScript API（MasaoJSS）のドキュメントをVisual Studio
 
 ```
 ext install urotaichi.masaojss-helper
+```
+
+### OpenVSX Registry から（VS Code互換エディタ用）
+OpenVSX Registry対応により、VS Code以外のエディタ（Kiro、VSCodium、Theia、Eclipse Che等）でもご利用いただけます：
+
+1. エディタの拡張機能ビューを開く
+2. 検索バーに「MasaoJSS Helper」と入力
+3. インストールボタンをクリック
+
+または、コマンドラインから：
+
+```bash
+# Kiroの場合
+# Kiroの拡張機能パネルから「MasaoJSS Helper」を検索してインストール
+
+# VSCodiumの場合
+codium --install-extension urotaichi.masaojss-helper
+
+# OpenVSX CLIを使用する場合
+ovsx get urotaichi.masaojss-helper
 ```
 
 ## 使用方法

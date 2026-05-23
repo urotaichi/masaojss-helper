@@ -6,3 +6,8 @@ vsc-extension-quickstart.md
 **/.eslint*
 **/*.map
 **/*.ts
+node_modules/**
+src/**
+.github/**
+*.vsix
+package-lock.json

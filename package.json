@@ -2,9 +2,9 @@
   "name": "masaojss-helper",
   "displayName": "MasaoJSS Helper",
   "description": "MasaoJSS API Documentation for Visual Studio Code",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.120.0"
   },
   "categories": [
     "Other"
@@ -15,12 +15,19 @@
     "type": "git",
     "url": "https://github.com/urotaichi/masaojss-helper"
   },
+  "bugs": {
+    "url": "https://github.com/urotaichi/masaojss-helper/issues"
+  },
+  "homepage": "https://github.com/urotaichi/masaojss-helper#readme",
+  "qna": "https://github.com/urotaichi/masaojss-helper/discussions",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "package": "vsce package",
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "publish:ovsx": "ovsx publish",
+    "publish:all": "npm run publish && npm run publish:ovsx"
   },
   "activationEvents": [
     "onLanguage:javascript",
@@ -44,9 +51,10 @@
   "author": "urotaichi",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^22.15.3",
-    "@types/vscode": "^1.99.1",
-    "typescript": "^5.8.3",
+    "@types/node": "^25.9.1",
+    "@types/vscode": "^1.120.0",
+    "ovsx": "^0.10.12",
+    "typescript": "^6.0.3",
     "vscode-test": "^1.6.1"
   }
 }

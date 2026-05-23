@@ -2,6 +2,16 @@
 
 All notable changes to the "MasaoJSS Helper" extension will be documented in this file.
 
+## [0.0.3] - 2025-05-23
+
+- OpenVSX Registry対応
+  - Kiro、VSCodium、Eclipse Theia、Eclipse Che等のVS Code互換エディタでの利用が可能に
+  - GitHub Actionsによる自動公開設定を追加
+  - OpenVSX対応ドキュメント（OPENVSX.md）を追加
+  - package.jsonにOpenVSX関連のメタデータを追加
+- VS Codeエンジンの最小バージョンを1.120.0に更新
+  - 最新の@types/vscodeとの互換性を確保
+
 ## [0.0.2] - 2025-05-05
 
 - APIドキュメントの修正
