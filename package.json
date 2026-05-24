@@ -2,9 +2,9 @@
   "name": "masaojss-helper",
   "displayName": "MasaoJSS Helper",
   "description": "MasaoJSS API Documentation for Visual Studio Code",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
-    "vscode": "^1.120.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Other"
@@ -52,7 +52,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.9.1",
-    "@types/vscode": "^1.120.0",
+    "@types/vscode": "^1.74.0",
     "ovsx": "^0.10.12",
     "typescript": "^6.0.3",
     "vscode-test": "^1.6.1"
